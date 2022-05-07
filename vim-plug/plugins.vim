@@ -41,14 +41,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'APZelos/blamer.nvim'
     " Vim spector
     Plug 'puremourning/vimspector'
-    " Git help
-    Plug 'tpope/vim-fugitive'
-    " Surround
-    Plug 'tpope/vim-surround'
-    " Close tag in html or react
-    Plug 'alvan/vim-closetag'
-    " navigator
-    Plug 'christoomey/vim-tmux-navigator'
-    " Docker
-    Plug 'docker/docker'
+    " Power line
+    Plug 'powerline/powerline'
+    " Nerd comment
+    Plug 'preservim/nerdcommenter'
 call plug#end()

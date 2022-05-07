@@ -4,7 +4,7 @@
 :set nocursorcolumn
 :set clipboard=unnamed
 :set mouse=a
-:syntax = enabled
+:syntax on
 :set showcmd
 :set ruler
 :set encoding=utf-8
@@ -13,7 +13,7 @@
 :set laststatus=2
 :set noshowmode
 :set cmdheight=1
-:set listchars=eol:¬,tab:>·,trail:~,extends:>,precedes:<,space:·
+:set listchars=eol:·,tab:>·,trail:~,extends:>,precedes:<,space:·
 :set list
 
 " Color Column
@@ -27,6 +27,7 @@ let g:rainbow_active = 1
 
 " Map
 :map <C-n> :NERDTree
+:map <C-l> :NERDTreeFind<cr>
 :map <Leader>w :w<CR>
 :map <Leader>q :q<CR>
 :map <C-a> :Ag<Cr>
@@ -45,3 +46,8 @@ endif
 " Tema
 colorscheme gruvbox
 let g:gruvbox_contrast_dark = "hard"
+
+nnoremap <C-Left> :tabprevious<CR>
+nnoremap <C-Right> :tabnext<CR>
+nnoremap <C-Up> :tabfirst<CR>
+nnoremap <C-Down> :tablast<CR>
