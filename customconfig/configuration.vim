@@ -26,12 +26,13 @@ let g:blamer_enabled = 1
 let g:rainbow_active = 1
 
 " Map
-:map <C-n> :NERDTree
+:map <C-m> :NERDTree <cr>
 :map <C-l> :NERDTreeFind<cr>
 :map <Leader>w :w<CR>
 :map <Leader>q :q<CR>
 :map <C-a> :Ag<Cr>
-:map <Leader>p :Prettier<CR>
+:map <silent><Leader>p :Prettier <CR>
+:map <silent><Leader>n :noh <CR>
 
 nmap <silent> gd <Plug>(coc-definition)
 nmap <silent> gy <Plug>(coc-type-definition)
@@ -45,7 +46,7 @@ endif
 
 " Tema
 colorscheme gruvbox
-let g:gruvbox_contrast_dark = "hard"
+"let g:gruvbox_contrast_dark = "hard"
 
 nnoremap <C-Left> :tabprevious<CR>
 nnoremap <C-Right> :tabnext<CR>

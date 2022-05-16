@@ -45,4 +45,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'powerline/powerline'
     " Nerd comment
     Plug 'preservim/nerdcommenter'
+    " Visual multiplexor
+    Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 call plug#end()
