@@ -43,8 +43,16 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'puremourning/vimspector'
     " Power line
     Plug 'powerline/powerline'
-    " Nerd comment
-    Plug 'preservim/nerdcommenter'
-    " Visual multiplexor
-    Plug 'mg979/vim-visual-multi', {'branch': 'master'}
+    " Close tag html | react
+    Plug 'alvan/vim-closetag'
+    " Encapsule text
+    Plug 'tpope/vim-surround'
+    " Reorder
+    Plug 'easymotion/vim-easymotion'
+    " Show line delete and add
+    Plug 'mhinz/vim-signify'
+    " Line in code
+    Plug 'yggdroot/indentline'
+    " Comments code
+    Plug 'scrooloose/nerdcommenter'
 call plug#end()

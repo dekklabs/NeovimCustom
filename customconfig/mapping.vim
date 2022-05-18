@@ -5,3 +5,7 @@
 " Use <c-space> to trigger completion.
 inoremap <silent><expr> <c-space> coc#refresh()
 :map <C-k> :History <CR>
+:map <Leader> <Plug>(easymotion-prefix)
+
+" diagnostics
+nnoremap <leader>kp :let @*=expand("%")<CR>

@@ -26,7 +26,8 @@ let g:blamer_enabled = 1
 let g:rainbow_active = 1
 
 " Map
-:map <C-m> :NERDTree <cr>
+:map <C-n> :NERDTree <cr>
+:map <C-b> :NERDTreeClose <cr>
 :map <C-l> :NERDTreeFind<cr>
 :map <Leader>w :w<CR>
 :map <Leader>q :q<CR>
@@ -46,7 +47,7 @@ endif
 
 " Tema
 colorscheme gruvbox
-"let g:gruvbox_contrast_dark = "hard"
+let g:gruvbox_contrast_dark = "hard"
 
 nnoremap <C-Left> :tabprevious<CR>
 nnoremap <C-Right> :tabnext<CR>
