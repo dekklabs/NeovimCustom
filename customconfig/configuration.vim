@@ -34,6 +34,7 @@ let g:rainbow_active = 1
 :map <C-a> :Ag<Cr>
 :map <silent><Leader>p :Prettier <CR>
 :map <silent><Leader>n :noh <CR>
+:map <silent><Leader>k :TestFile<CR>
 
 nmap <silent> gd <Plug>(coc-definition)
 nmap <silent> gy <Plug>(coc-type-definition)

@@ -55,4 +55,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'yggdroot/indentline'
     " Comments code
     Plug 'scrooloose/nerdcommenter'
+    " test
+    Plug 'tyewang/vimux-jest-test'
+    Plug 'janko-m/vim-test'
+    " Vue support
+    Plug 'posva/vim-vue'
 call plug#end()
