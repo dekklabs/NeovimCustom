@@ -13,7 +13,7 @@
 :set laststatus=2
 :set noshowmode
 :set cmdheight=1
-:set listchars=eol:·,tab:>·,trail:~,extends:>,precedes:<,space:·
+:set listchars=eol:·,tab:··,trail:~,extends:>,precedes:<,space:·
 :set list
 
 " Color Column

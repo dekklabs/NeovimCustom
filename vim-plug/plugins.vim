@@ -60,4 +60,5 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'janko-m/vim-test'
     " Vue support
     Plug 'posva/vim-vue'
+    Plug 'leafOfTree/vim-vue-plugin'
 call plug#end()
