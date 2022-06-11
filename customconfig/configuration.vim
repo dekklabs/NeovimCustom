@@ -49,6 +49,8 @@ endif
 " Tema
 colorscheme gruvbox
 let g:gruvbox_contrast_dark = "hard"
+let g:lightline = {}
+let g:lightline.colorscheme = 'gruvbox'
 
 nnoremap <C-Left> :tabprevious<CR>
 nnoremap <C-Right> :tabnext<CR>

@@ -15,6 +15,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'jiangmiao/auto-pairs'
     " Theme
     Plug 'morhetz/gruvbox'
+    Plug 'shinchu/lightline-gruvbox.vim'
     " FZF
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
     Plug 'junegunn/fzf.vim'
@@ -63,4 +64,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'leafOfTree/vim-vue-plugin'
     " Find and replace
     Plug 'brooth/far.vim'
+    " Tabular
+    Plug 'godlygeek/tabular'
+    " Vim floating
+    Plug 'voldikss/vim-floaterm'
 call plug#end()
