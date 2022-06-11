@@ -26,9 +26,9 @@ let g:blamer_enabled = 1
 let g:rainbow_active = 1
 
 " Map
-:map <C-n> :NERDTree <cr>
-:map <C-b> :NERDTreeClose <cr>
-:map <C-l> :NERDTreeFind<cr>
+:map <silent><C-n> :NERDTree <CR>
+:map <silent><C-b> :NERDTreeClose <CR>
+:map <C-l> :NERDTreeFind<CR>
 :map <Leader>w :w<CR>
 :map <Leader>q :q<CR>
 :map <C-a> :Ag<Cr>
