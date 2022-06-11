@@ -61,4 +61,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Vue support
     Plug 'posva/vim-vue'
     Plug 'leafOfTree/vim-vue-plugin'
+    " Find and replace
+    Plug 'brooth/far.vim'
 call plug#end()

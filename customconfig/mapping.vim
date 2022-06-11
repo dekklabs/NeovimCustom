@@ -9,3 +9,5 @@ inoremap <silent><expr> <c-space> coc#refresh()
 
 " diagnostics
 nnoremap <leader>kp :let @*=expand("%")<CR>
+nnoremap <C-s> :Far 
+nnoremap <C-h> :Farf
