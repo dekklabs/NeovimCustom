@@ -11,3 +11,8 @@ inoremap <silent><expr> <c-space> coc#refresh()
 nnoremap <leader>kp :let @*=expand("%")<CR>
 nnoremap <C-s> :Far 
 nnoremap <C-h> :Farf
+
+" Go to definition
+nmap <silent> gb :call CocAction('jumpDefinition', 'split')<CR>
+nmap <silent> gv :call CocAction('jumpDefinition', 'vsplit')<CR>
+nmap <silent> gt :call CocAction('jumpDefinition', 'tabe')<CR>
