@@ -15,7 +15,7 @@
 :set cmdheight=1
 :set listchars=eol:·,tab:··,trail:~,extends:>,precedes:<,space:·
 :set list
-
+:set foldmethod=manual
 " Color Column
 hi Cursorline cterm=None ctermbg=8
 
