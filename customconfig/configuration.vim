@@ -3,7 +3,7 @@
 :set number
 :set nocursorcolumn
 :set clipboard=unnamed
-:set mouse=a
+":set mouse=a   " enable mouse in terminal
 :syntax on
 :set showcmd
 :set ruler
@@ -16,6 +16,8 @@
 :set listchars=eol:·,tab:··,trail:~,extends:>,precedes:<,space:·
 :set list
 :set foldmethod=manual
+:set showtabline=2
+
 " Color Column
 hi Cursorline cterm=None ctermbg=8
 
@@ -52,7 +54,12 @@ let g:gruvbox_contrast_dark = "hard"
 let g:lightline = {}
 let g:lightline.colorscheme = 'gruvbox'
 
-nnoremap <C-Left> :tabprevious<CR>
-nnoremap <C-Right> :tabnext<CR>
-nnoremap <C-Up> :tabfirst<CR>
-nnoremap <C-Down> :tablast<CR>
+"nnoremap <C-Left> :tabprevious<CR>
+"nnoremap <C-Right> :tabnext<CR>
+"nnoremap <C-Up> :tabfirst<CR>
+"nnoremap <C-Down> :tablast<CR>
+
+nnoremap <silent><C-h> :tabprevious<CR>
+nnoremap <silent><C-l> :tabnext<CR>
+nnoremap <silent><C-j> :tabfirst<CR>
+nnoremap <silent><C-k> :tablast<CR>

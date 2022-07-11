@@ -68,4 +68,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'godlygeek/tabular'
     " Vim floating
     Plug 'voldikss/vim-floaterm'
+    Plug 'simeji/winresizer'
+    Plug 'dm1try/golden_size'
+    Plug 'rhysd/git-messenger.vim'
 call plug#end()
