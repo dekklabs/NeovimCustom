@@ -1,4 +1,5 @@
 :map <F2> :echo 'Current time is: ' . strftime('%c')<CR>
+:map <silent> <leader>m :GitMessenger <CR>
 " Insertar ` vim
 :imap <C-r> ``
 
@@ -6,7 +7,7 @@
 inoremap <silent><expr> <c-space> coc#refresh()
 ":map <C-k> :History <CR>
 :map <C-g> :History <CR>
-:map <Leader> <Plug>(easymotion-prefix)
+":map <Leader> <Plug>(easymotion-prefix)
 
 " diagnostics
 nnoremap <leader>kp :let @*=expand("%")<CR>

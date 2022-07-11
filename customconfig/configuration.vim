@@ -54,11 +54,6 @@ let g:gruvbox_contrast_dark = "hard"
 let g:lightline = {}
 let g:lightline.colorscheme = 'gruvbox'
 
-"nnoremap <C-Left> :tabprevious<CR>
-"nnoremap <C-Right> :tabnext<CR>
-"nnoremap <C-Up> :tabfirst<CR>
-"nnoremap <C-Down> :tablast<CR>
-
 nnoremap <silent><C-h> :tabprevious<CR>
 nnoremap <silent><C-l> :tabnext<CR>
 nnoremap <silent><C-j> :tabfirst<CR>

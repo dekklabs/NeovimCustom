@@ -23,6 +23,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Muestra estado de git en tree view
     Plug 'Xuyuanp/nerdtree-git-plugin'
     " Mejor vista del la barra inferior de estado
+    " Statusbar
     Plug 'itchyny/lightline.vim'
     " Sintaxis JSX
     Plug 'maxmellon/vim-jsx-pretty'
@@ -68,7 +69,5 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'godlygeek/tabular'
     " Vim floating
     Plug 'voldikss/vim-floaterm'
-    Plug 'simeji/winresizer'
-    Plug 'dm1try/golden_size'
     Plug 'rhysd/git-messenger.vim'
 call plug#end()
