@@ -27,10 +27,14 @@ let NERDTreeShowHidden=1
 let g:blamer_enabled = 1
 let g:rainbow_active = 1
 
+let g:user_emmet_mode='n'    "only enable normal mode functions.
+let g:user_emmet_mode='inv'  "enable all functions, which is equal to
+let g:user_emmet_mode='a'    "enable all function in all mode.
+
 " Map
 :map <silent><C-n> :NERDTree <CR>
 :map <silent><C-b> :NERDTreeClose <CR>
-:map <C-l> :NERDTreeFind<CR>
+:map <C-s> :NERDTreeFind<CR>
 :map <Leader>w :w<CR>
 :map <Leader>q :q<CR>
 :map <C-a> :Ag<Cr>
@@ -48,7 +52,7 @@ if !has('gui_running')
   set t_Co=256
 endif
 
-" Tema
+" Gruvbox
 colorscheme gruvbox
 let g:gruvbox_contrast_dark = "hard"
 let g:lightline = {}
@@ -58,3 +62,10 @@ nnoremap <silent><C-h> :tabprevious<CR>
 nnoremap <silent><C-l> :tabnext<CR>
 nnoremap <silent><C-j> :tabfirst<CR>
 nnoremap <silent><C-k> :tablast<CR>
+
+
+let g:echodoc#enable_at_startup = 1
+let g:echodoc#type = 'popup'
+" To use a custom highlight for the popup window,
+" change Pmenu to your highlight group
+highlight link EchoDocPopup Pmenu

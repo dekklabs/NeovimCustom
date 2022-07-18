@@ -46,7 +46,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Power line
     Plug 'powerline/powerline'
     " Close tag html | react
-    Plug 'alvan/vim-closetag'
+    "Plug 'alvan/vim-closetag'
     " Encapsule text
     Plug 'tpope/vim-surround'
     " Reorder
@@ -69,5 +69,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'godlygeek/tabular'
     " Vim floating
     Plug 'voldikss/vim-floaterm'
+    " JSX
     Plug 'rhysd/git-messenger.vim'
+    Plug 'pangloss/vim-javascript'
+    Plug 'mxw/vim-jsx'
+    "Coc documentation
+    Plug 'Shougo/echodoc.vim'
 call plug#end()
