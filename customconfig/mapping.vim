@@ -7,6 +7,7 @@
 inoremap <silent><expr> <c-space> coc#refresh()
 ":map <C-k> :History <CR>
 :map <C-g> :History <CR>
+:map <C-t> :tabnew <CR>
 ":map <Leader> <Plug>(easymotion-prefix)
 
 " diagnostics

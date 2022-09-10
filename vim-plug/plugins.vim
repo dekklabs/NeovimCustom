@@ -49,8 +49,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     "Plug 'alvan/vim-closetag'
     " Encapsule text
     Plug 'tpope/vim-surround'
-    " Reorder
-    Plug 'easymotion/vim-easymotion'
     " Show line delete and add
     Plug 'mhinz/vim-signify'
     " Line in code
@@ -75,4 +73,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'mxw/vim-jsx'
     "Coc documentation
     Plug 'Shougo/echodoc.vim'
+    " Welcome screen
+    Plug 'mhinz/vim-startify'
 call plug#end()
