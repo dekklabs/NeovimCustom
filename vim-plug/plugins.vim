@@ -75,4 +75,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'Shougo/echodoc.vim'
     " Welcome screen
     Plug 'mhinz/vim-startify'
+    " Github Copilot
+    Plug 'github/copilot.vim'
 call plug#end()
