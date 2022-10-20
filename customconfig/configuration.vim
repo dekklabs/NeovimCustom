@@ -69,3 +69,9 @@ let g:echodoc#type = 'popup'
 " To use a custom highlight for the popup window,
 " change Pmenu to your highlight group
 highlight link EchoDocPopup Pmenu
+
+
+highlight BookmarkSign ctermbg=NONE ctermfg=160
+highlight BookmarkLine ctermbg=194 ctermfg=NONE
+let g:bookmark_sign = '♥'
+let g:bookmark_highlight_lines = 1

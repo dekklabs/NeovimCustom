@@ -6,3 +6,4 @@ source $HOME/.config/nvim/customconfig/statusbarbottom.vim
 source $HOME/.config/nvim/customconfig/prettier.vim
 source $HOME/.config/nvim/customconfig/closetag.vim
 source $HOME/.config/nvim/customconfig/floating.vim
+source $HOME/.config/nvim/customconfig/startify.vim
