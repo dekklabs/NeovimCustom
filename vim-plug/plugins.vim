@@ -15,40 +15,40 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'jiangmiao/auto-pairs'
     " Theme
     Plug 'morhetz/gruvbox'
-    "#Plug 'shinchu/lightline-gruvbox.vim'
+    Plug 'shinchu/lightline-gruvbox.vim'
     " FZF
     Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
     Plug 'junegunn/fzf.vim'
     Plug 'airblade/vim-rooter'
     " Muestra estado de git en tree view
-    "#Plug 'Xuyuanp/nerdtree-git-plugin'
+    Plug 'Xuyuanp/nerdtree-git-plugin'
     " Mejor vista del la barra inferior de estado
     " Statusbar
     Plug 'itchyny/lightline.vim'
     " Sintaxis JSX
     Plug 'maxmellon/vim-jsx-pretty'
     " Iconos de lenguajes
-    "Plug 'ryanoasis/vim-devicons'
+    Plug 'ryanoasis/vim-devicons'
     " Git branch
-    "#Plug 'itchyny/vim-gitbranch'
+    Plug 'itchyny/vim-gitbranch'
     " Color highlight CSS
     Plug 'lilydjwg/colorizer'
     " Color verde a las carpetas e iconos
-    "#Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+    Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
     " Intellisence
     Plug 'neoclide/coc.nvim', {'branch': 'master', 'do': 'yarn install --frozen-lockfile'}
     " Prettier
     Plug 'prettier/vim-prettier', { 'do': 'yarn install' } 
     " Git lends
-    "Plug 'APZelos/blamer.nvim'
+    Plug 'APZelos/blamer.nvim'
     " Vim spector
     Plug 'puremourning/vimspector'
     " Power line
     Plug 'powerline/powerline'
     " Close tag html | react
-    "Plug 'alvan/vim-closetag'
+    Plug 'alvan/vim-closetag'
     " Encapsule text
-    "Plug 'tpope/vim-surround'
+    Plug 'tpope/vim-surround'
     " Show line delete and add
     Plug 'mhinz/vim-signify'
     " Line in code
@@ -58,11 +58,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " test
     Plug 'tyewang/vimux-jest-test'
     Plug 'janko-m/vim-test'
-    " Vue support
-    "Plug 'posva/vim-vue'
-    "Plug 'leafOfTree/vim-vue-plugin'
-    " Find and replace
-    "Plug 'brooth/far.vim'
     " Tabular
     Plug 'godlygeek/tabular'
     " Vim floating
