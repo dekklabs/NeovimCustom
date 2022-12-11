@@ -17,6 +17,7 @@
 :set list
 :set foldmethod=manual
 :set showtabline=2
+:set wildmenu
 
 " Color Column
 hi Cursorline cterm=None ctermbg=8

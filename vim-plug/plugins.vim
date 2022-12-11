@@ -72,4 +72,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'mhinz/vim-startify'
     " Github Copilot
     Plug 'github/copilot.vim'
+    " Sintaxis js
+    Plug 'nvim-treesitter/nvim-treesitter'
 call plug#end()

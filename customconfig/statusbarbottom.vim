@@ -1,5 +1,5 @@
 let g:lightline = {
-    \ 'colorscheme': 'deus',
+    \ 'colorscheme': 'materia',
     \ 'active': {
 	  \   'left' : [
     \       ['mode', 'paste'],
@@ -17,3 +17,9 @@ let g:lightline = {
 	  \ 'separator': { 'left': '', 'right': '' },
 	  \ 'subseparator': { 'left': '', 'right': '' }
     \ }
+
+
+
+"\ 'colorscheme': 'wombat',
+"\ 'colorscheme': 'materia',
+"\ 'colorscheme': 'deus',

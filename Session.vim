@@ -38,3 +38,5 @@ nohlsearch
 doautoall SessionLoadPost
 unlet SessionLoad
 " vim: set ft=vim :
+
+
