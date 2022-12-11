@@ -74,4 +74,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'github/copilot.vim'
     " Sintaxis js
     Plug 'nvim-treesitter/nvim-treesitter'
+    " Linter
+    Plug 'dense-analysis/ale'
+
+    Plug 'nvim-lua/plenary.nvim'
+    Plug 'sindrets/diffview.nvim'
 call plug#end()

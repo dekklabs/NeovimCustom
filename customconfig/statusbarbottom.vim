@@ -1,5 +1,5 @@
 let g:lightline = {
-    \ 'colorscheme': 'materia',
+    \ 'colorscheme': 'deus',
     \ 'active': {
 	  \   'left' : [
     \       ['mode', 'paste'],
