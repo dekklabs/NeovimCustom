@@ -19,3 +19,4 @@ source $HOME/.config/nvim/customconfig/closetag.vim
 source $HOME/.config/nvim/customconfig/floating.vim
 source $HOME/.config/nvim/customconfig/startify.vim
 source $HOME/.config/nvim/customconfig/nerdTreeConfig.vim
+source $HOME/.config/nvim/customconfig/diff.vim

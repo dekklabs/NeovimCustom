@@ -79,4 +79,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
     Plug 'nvim-lua/plenary.nvim'
     Plug 'sindrets/diffview.nvim'
+
+    " Lazy git
+    Plug 'kdheepak/lazygit.nvim'
 call plug#end()
